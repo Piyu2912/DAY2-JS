@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 2 JS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h2 style="text-align: center; text-decoration: underline;">JS Second Class</h2>
+
+    <p class="que">Explain var, let and const?</p>
+
+    <p class="ans">There are three types of variables in javascript:</p>
+
+    <ul class="ans">
+        <li>
+            <b>var</b>
+            <ul>
+                <li>var is Global or Functional Scoped.</li>
+                <li>It can be reassigned, redeclared and modified later.</li>
+            </ul>
+        </li>
+        <li>
+            <b>let</b>
+            <ul>
+                <li>let is Block Scoped</li>
+                <li>It can be modified later on.</li>
+                <li>It cannot be reassigned and redeclared later on.</li>
+            </ul>
+        </li>
+        <li>
+            <b>const</b>
+            <ul>
+                <li>const is also block scoped like let.</li>
+                <li>It cannot be reassigned, redeclared and modified later on.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <p class="que">What is Hoisting?</p>
+
+    <p class="ans">Hoisting is the default mechanism where our variables and functions declarations are moved up to top of their scope before code execution. </p>
+    <p class="ans">Only declarations are hoisted not initializations.</p>
+
+    <p class="que">What is Temporal Dead Zone?</p>
+
+    <p class="ans">It is the time between the hoisting and the initialization of variables.
+        Even let and const are hoisted but they are in different space called Temporal Dead Zone  </p>
+
+    <p class="atten">Please look into the script file!!</p>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

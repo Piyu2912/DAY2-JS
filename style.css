@@ -1,0 +1,17 @@
+.que{
+    font-size: 19px;
+    font-weight: 400;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+.ans{
+    font-size: 18px;
+    font-weight: 300;
+    color: blue;
+    margin-left: 21px;
+}
+.atten{
+    font-size: 21px;
+    margin: 39px;
+    color: red;
+}
