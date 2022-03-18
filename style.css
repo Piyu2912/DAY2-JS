@@ -15,3 +15,11 @@
     margin: 39px;
     color: red;
 }
+.diff{
+    margin-left: 25%;
+}
+.diff, th, td , tr{
+    border: 1.5px solid black;
+    padding: 5px;
+    text-align: center;
+}
